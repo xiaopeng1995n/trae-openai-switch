@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte'
+  import { BrowserOpenURL } from '../wailsjs/runtime/runtime'
   import Button from './components/ui/Button.svelte'
   import Card from './components/ui/Card.svelte'
   import wechatImg from './zz_20260413131359.jpg'
@@ -313,6 +314,31 @@
 
 <div class="min-h-screen bg-background text-foreground">
   <div class="mx-auto max-w-md space-y-4 p-4">
+    <div class="flex items-center justify-between border-b border-border pb-2">
+      <h1 class="text-lg font-bold">Trae Switch</h1>
+      <button
+        type="button"
+        class="flex items-center gap-2 rounded-md px-2 py-1 text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+        on:click={() => BrowserOpenURL('https://github.com/xiaopeng1995n/trae-openai-switch')}
+        title="查看源码"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+        </svg>
+        GitHub
+      </button>
+    </div>
+
     <div class="grid grid-cols-4 gap-3 py-2">
       <Button
         variant={primaryButtonVariant}
