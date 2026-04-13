@@ -3,7 +3,10 @@
 **Trae Switch** 是一个专为 Trae IDE 设计的工具，通过 DNS 劫持 + 本地反向代理，让 Trae IDE 支持第三方大模型服务商 API（如阿里百炼 Coding Plan、kimi coding plan等）。详细使用教程：https://mp.weixin.qq.com/s/W_Z_nbrO7ioU8upcq4KkOw
 
 ## 🚀 功能特点
+![alt text](image.png) ![alt text](image-1.png)![alt text](image-2.png)![alt text](image-3.png)
 
+
+![alt text](image-4.png)
 - **多服务商支持**：可添加、编辑、删除多个服务商配置
 - **本地模型管理**：`/v1/models` 请求返回本地配置的模型（因为第三方通常不支持此接口）
 - **自动 Hosts 配置**：将 `api.openai.com` 重定向到 `127.0.0.1`
