@@ -1,0 +1,25 @@
+# Dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+build/bin/
+frontend/package.json.md5
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+.env
+.env.*
+config.json
