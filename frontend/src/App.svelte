@@ -2,6 +2,8 @@
   import { onMount } from 'svelte'
   import Button from './components/ui/Button.svelte'
   import Card from './components/ui/Card.svelte'
+  import wechatImg from './zz_20260413131359.jpg'
+  import payImg from './pay_20260413131804.png'
 
   let status = {
     runningAsAdmin: false,
@@ -502,6 +504,29 @@
         <li>模型手动输入你想要使用的模型并且输入对应 API Key</li>
         <li>关闭auto mode 并且选择刚添加的模型</li>
       </ol>
+    </Card>
+
+    <Card className="p-4 text-center">
+      <h2 class="mb-3 font-semibold">作者微信</h2>
+      <img
+        src={wechatImg}
+        alt="作者微信二维码"
+        class="mx-auto w-40 h-40 rounded-lg object-cover"
+      />
+      <p class="mt-2 text-xs text-muted-foreground">扫码添加作者微信</p>
+    </Card>
+
+    <Card className="p-4 text-center">
+      <h2 class="mb-3 font-semibold">作者微信收款码</h2>
+      <img
+        src={payImg}
+        alt="作者收款码"
+        class="mx-auto w-40 h-40 rounded-lg object-cover"
+      />
+      <div class="mt-3 space-y-1 text-xs text-muted-foreground">
+        <p>如果觉得工具好用，欢迎扫码赞助</p>
+        <p>如果有意见欢迎联系作者</p>
+      </div>
     </Card>
   </div>
 </div>
