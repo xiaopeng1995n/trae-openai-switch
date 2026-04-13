@@ -1,6 +1,6 @@
 # Trae Switch
 
-**Trae openai Switch 是一个专为 Trae IDE 设计的工具，可以让Trae 接入任何支持 openai 的 第三方模型**，通过 DNS 劫持 + 本地反向代理，让 Trae IDE 支持第三方大模型服务商 API（如阿里百炼 Coding Plan、kimi coding plan等）。详细使用教程：
+**Trae openai Switch 是一个专为 Trae IDE 设计的工具，可以让Trae 接入任何支持 openai 协议的的 第三方模型**，通过 DNS 劫持 + 本地反向代理，让 Trae IDE 支持第三方大模型服务商 API（如阿里百炼 Coding Plan、kimi coding plan等）。详细使用教程：
 
 ## 🚀 功能特点
 
